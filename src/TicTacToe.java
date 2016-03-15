@@ -1,11 +1,10 @@
 
 import java.util.Scanner;
 
-public class TicTacToe{
+public class TicTacToe{ 
 		
 		public static void main(String[] args){
 		
-
 			System.out.println("Please input the string of length 9 ( for eg. xxo_o_xo_ )");
 			Scanner scan = new Scanner(System.in);
 			String value = scan.nextLine();	
