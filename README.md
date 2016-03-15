@@ -8,7 +8,9 @@ This is a program for a computer (X player) to play with a human (O player) on T
 game given an initial status of the game. The initial status of the game is represented
 by a string of 9 characters. 
 For example, the game status can be expressed using string “OOO_OX_XX". The program always 
-plays the winning strategies and try to defeat the human player if possible.
+plays the winning strategies and try to defeat the human player if possible. The program
+tries to play a maxmin strategy first. If the maxmin strategy is not 
+beneficial it will play a minmax strategy to minimize the payoff of the other player.
 
 The sample input and output are shown below:
 Example 1:
@@ -36,3 +38,4 @@ X X O
 O O X
 X O X
 The game is finished. No one won the game.
+
